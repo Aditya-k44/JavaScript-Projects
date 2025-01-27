@@ -61,7 +61,7 @@ function animatePress(currentColor) {
   buttonElement.classList.add("pressed");
   setTimeout(function () {
     buttonElement.classList.remove("pressed");
-  }, 200);
+  }, 100);
 }
 
 function checkAnswer(currentLevel) {
@@ -69,7 +69,7 @@ function checkAnswer(currentLevel) {
     if (userClickedPattern.length == gamePattern.length) {
       setTimeout(function () {
         nextSequence();
-      }, 2000);
+      }, 1000);
     }
   } else {
     sounds.get("wrong").play();
