@@ -2,7 +2,7 @@ const currencyRates = {
   USD: 1,
   EUR: 0.85,
   GBP: 0.74,
-  INR: 74.63,
+  INR: 80.63,
 };
 
 document
